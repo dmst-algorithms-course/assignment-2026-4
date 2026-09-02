@@ -1,0 +1,19 @@
+{
+  "mode": "generate",
+  "seed": 7,
+  "watermarked": true,
+  "entropy": "high",
+  "layers": 4,
+  "window": 4,
+  "sampler": "knockout",
+  "tokens": [
+    "w566",
+    "w899",
+    "w927",
+    "w742",
+    "w904",
+    "w705",
+    "w077",
+    "w247"
+  ]
+}

@@ -1,0 +1,1413 @@
+{
+  "mode": "detect",
+  "alpha": 0.01,
+  "layers": 30,
+  "window": 4,
+  "calibration": {
+    "documents": 1000,
+    "threshold": 3031
+  },
+  "documents": [
+    {
+      "index": 0,
+      "scorable": 196,
+      "numerator": 2968,
+      "score": 0.5047619047619047,
+      "flagged": 0
+    },
+    {
+      "index": 1,
+      "scorable": 196,
+      "numerator": 2941,
+      "score": 0.5001700680272109,
+      "flagged": 0
+    },
+    {
+      "index": 2,
+      "scorable": 196,
+      "numerator": 2975,
+      "score": 0.5059523809523809,
+      "flagged": 0
+    },
+    {
+      "index": 3,
+      "scorable": 196,
+      "numerator": 2962,
+      "score": 0.5037414965986394,
+      "flagged": 0
+    },
+    {
+      "index": 4,
+      "scorable": 196,
+      "numerator": 2925,
+      "score": 0.49744897959183676,
+      "flagged": 0
+    },
+    {
+      "index": 5,
+      "scorable": 196,
+      "numerator": 2935,
+      "score": 0.4991496598639456,
+      "flagged": 0
+    },
+    {
+      "index": 6,
+      "scorable": 196,
+      "numerator": 2933,
+      "score": 0.4988095238095238,
+      "flagged": 0
+    },
+    {
+      "index": 7,
+      "scorable": 196,
+      "numerator": 2964,
+      "score": 0.5040816326530613,
+      "flagged": 0
+    },
+    {
+      "index": 8,
+      "scorable": 196,
+      "numerator": 2869,
+      "score": 0.4879251700680272,
+      "flagged": 0
+    },
+    {
+      "index": 9,
+      "scorable": 196,
+      "numerator": 2964,
+      "score": 0.5040816326530613,
+      "flagged": 0
+    },
+    {
+      "index": 10,
+      "scorable": 196,
+      "numerator": 2958,
+      "score": 0.503061224489796,
+      "flagged": 0
+    },
+    {
+      "index": 11,
+      "scorable": 196,
+      "numerator": 2929,
+      "score": 0.4981292517006803,
+      "flagged": 0
+    },
+    {
+      "index": 12,
+      "scorable": 196,
+      "numerator": 2895,
+      "score": 0.4923469387755102,
+      "flagged": 0
+    },
+    {
+      "index": 13,
+      "scorable": 196,
+      "numerator": 3004,
+      "score": 0.5108843537414965,
+      "flagged": 0
+    },
+    {
+      "index": 14,
+      "scorable": 196,
+      "numerator": 2954,
+      "score": 0.5023809523809524,
+      "flagged": 0
+    },
+    {
+      "index": 15,
+      "scorable": 196,
+      "numerator": 2952,
+      "score": 0.5020408163265306,
+      "flagged": 0
+    },
+    {
+      "index": 16,
+      "scorable": 196,
+      "numerator": 2972,
+      "score": 0.5054421768707483,
+      "flagged": 0
+    },
+    {
+      "index": 17,
+      "scorable": 196,
+      "numerator": 2873,
+      "score": 0.48860544217687074,
+      "flagged": 0
+    },
+    {
+      "index": 18,
+      "scorable": 196,
+      "numerator": 3026,
+      "score": 0.5146258503401361,
+      "flagged": 0
+    },
+    {
+      "index": 19,
+      "scorable": 196,
+      "numerator": 2983,
+      "score": 0.507312925170068,
+      "flagged": 0
+    },
+    {
+      "index": 20,
+      "scorable": 196,
+      "numerator": 2895,
+      "score": 0.4923469387755102,
+      "flagged": 0
+    },
+    {
+      "index": 21,
+      "scorable": 196,
+      "numerator": 2956,
+      "score": 0.5027210884353741,
+      "flagged": 0
+    },
+    {
+      "index": 22,
+      "scorable": 196,
+      "numerator": 2892,
+      "score": 0.49183673469387756,
+      "flagged": 0
+    },
+    {
+      "index": 23,
+      "scorable": 196,
+      "numerator": 2951,
+      "score": 0.5018707482993198,
+      "flagged": 0
+    },
+    {
+      "index": 24,
+      "scorable": 196,
+      "numerator": 2968,
+      "score": 0.5047619047619047,
+      "flagged": 0
+    },
+    {
+      "index": 25,
+      "scorable": 196,
+      "numerator": 2894,
+      "score": 0.4921768707482993,
+      "flagged": 0
+    },
+    {
+      "index": 26,
+      "scorable": 196,
+      "numerator": 2949,
+      "score": 0.5015306122448979,
+      "flagged": 0
+    },
+    {
+      "index": 27,
+      "scorable": 196,
+      "numerator": 2944,
+      "score": 0.5006802721088436,
+      "flagged": 0
+    },
+    {
+      "index": 28,
+      "scorable": 196,
+      "numerator": 2929,
+      "score": 0.4981292517006803,
+      "flagged": 0
+    },
+    {
+      "index": 29,
+      "scorable": 196,
+      "numerator": 2922,
+      "score": 0.4969387755102041,
+      "flagged": 0
+    },
+    {
+      "index": 30,
+      "scorable": 196,
+      "numerator": 2918,
+      "score": 0.4962585034013605,
+      "flagged": 0
+    },
+    {
+      "index": 31,
+      "scorable": 196,
+      "numerator": 3009,
+      "score": 0.511734693877551,
+      "flagged": 0
+    },
+    {
+      "index": 32,
+      "scorable": 196,
+      "numerator": 2866,
+      "score": 0.48741496598639455,
+      "flagged": 0
+    },
+    {
+      "index": 33,
+      "scorable": 196,
+      "numerator": 2974,
+      "score": 0.5057823129251701,
+      "flagged": 0
+    },
+    {
+      "index": 34,
+      "scorable": 196,
+      "numerator": 2872,
+      "score": 0.4884353741496599,
+      "flagged": 0
+    },
+    {
+      "index": 35,
+      "scorable": 196,
+      "numerator": 2901,
+      "score": 0.4933673469387755,
+      "flagged": 0
+    },
+    {
+      "index": 36,
+      "scorable": 196,
+      "numerator": 2930,
+      "score": 0.49829931972789115,
+      "flagged": 0
+    },
+    {
+      "index": 37,
+      "scorable": 196,
+      "numerator": 3051,
+      "score": 0.5188775510204081,
+      "flagged": 1
+    },
+    {
+      "index": 38,
+      "scorable": 196,
+      "numerator": 3000,
+      "score": 0.5102040816326531,
+      "flagged": 0
+    },
+    {
+      "index": 39,
+      "scorable": 196,
+      "numerator": 2908,
+      "score": 0.49455782312925173,
+      "flagged": 0
+    },
+    {
+      "index": 40,
+      "scorable": 196,
+      "numerator": 2921,
+      "score": 0.4967687074829932,
+      "flagged": 0
+    },
+    {
+      "index": 41,
+      "scorable": 196,
+      "numerator": 2917,
+      "score": 0.49608843537414965,
+      "flagged": 0
+    },
+    {
+      "index": 42,
+      "scorable": 196,
+      "numerator": 2889,
+      "score": 0.4913265306122449,
+      "flagged": 0
+    },
+    {
+      "index": 43,
+      "scorable": 196,
+      "numerator": 2928,
+      "score": 0.49795918367346936,
+      "flagged": 0
+    },
+    {
+      "index": 44,
+      "scorable": 196,
+      "numerator": 2967,
+      "score": 0.5045918367346939,
+      "flagged": 0
+    },
+    {
+      "index": 45,
+      "scorable": 196,
+      "numerator": 2874,
+      "score": 0.4887755102040816,
+      "flagged": 0
+    },
+    {
+      "index": 46,
+      "scorable": 196,
+      "numerator": 2902,
+      "score": 0.4935374149659864,
+      "flagged": 0
+    },
+    {
+      "index": 47,
+      "scorable": 196,
+      "numerator": 2878,
+      "score": 0.4894557823129252,
+      "flagged": 0
+    },
+    {
+      "index": 48,
+      "scorable": 196,
+      "numerator": 2992,
+      "score": 0.508843537414966,
+      "flagged": 0
+    },
+    {
+      "index": 49,
+      "scorable": 196,
+      "numerator": 2904,
+      "score": 0.49387755102040815,
+      "flagged": 0
+    },
+    {
+      "index": 50,
+      "scorable": 196,
+      "numerator": 2990,
+      "score": 0.5085034013605442,
+      "flagged": 0
+    },
+    {
+      "index": 51,
+      "scorable": 196,
+      "numerator": 2948,
+      "score": 0.501360544217687,
+      "flagged": 0
+    },
+    {
+      "index": 52,
+      "scorable": 196,
+      "numerator": 2917,
+      "score": 0.49608843537414965,
+      "flagged": 0
+    },
+    {
+      "index": 53,
+      "scorable": 196,
+      "numerator": 3044,
+      "score": 0.5176870748299319,
+      "flagged": 1
+    },
+    {
+      "index": 54,
+      "scorable": 196,
+      "numerator": 2921,
+      "score": 0.4967687074829932,
+      "flagged": 0
+    },
+    {
+      "index": 55,
+      "scorable": 196,
+      "numerator": 2938,
+      "score": 0.4996598639455782,
+      "flagged": 0
+    },
+    {
+      "index": 56,
+      "scorable": 196,
+      "numerator": 2912,
+      "score": 0.49523809523809526,
+      "flagged": 0
+    },
+    {
+      "index": 57,
+      "scorable": 196,
+      "numerator": 3002,
+      "score": 0.5105442176870748,
+      "flagged": 0
+    },
+    {
+      "index": 58,
+      "scorable": 196,
+      "numerator": 2905,
+      "score": 0.49404761904761907,
+      "flagged": 0
+    },
+    {
+      "index": 59,
+      "scorable": 196,
+      "numerator": 2921,
+      "score": 0.4967687074829932,
+      "flagged": 0
+    },
+    {
+      "index": 60,
+      "scorable": 196,
+      "numerator": 2906,
+      "score": 0.49421768707482994,
+      "flagged": 0
+    },
+    {
+      "index": 61,
+      "scorable": 196,
+      "numerator": 2962,
+      "score": 0.5037414965986394,
+      "flagged": 0
+    },
+    {
+      "index": 62,
+      "scorable": 196,
+      "numerator": 2931,
+      "score": 0.498469387755102,
+      "flagged": 0
+    },
+    {
+      "index": 63,
+      "scorable": 196,
+      "numerator": 2965,
+      "score": 0.5042517006802721,
+      "flagged": 0
+    },
+    {
+      "index": 64,
+      "scorable": 196,
+      "numerator": 2961,
+      "score": 0.5035714285714286,
+      "flagged": 0
+    },
+    {
+      "index": 65,
+      "scorable": 196,
+      "numerator": 2908,
+      "score": 0.49455782312925173,
+      "flagged": 0
+    },
+    {
+      "index": 66,
+      "scorable": 196,
+      "numerator": 2989,
+      "score": 0.5083333333333333,
+      "flagged": 0
+    },
+    {
+      "index": 67,
+      "scorable": 196,
+      "numerator": 2961,
+      "score": 0.5035714285714286,
+      "flagged": 0
+    },
+    {
+      "index": 68,
+      "scorable": 196,
+      "numerator": 2884,
+      "score": 0.49047619047619045,
+      "flagged": 0
+    },
+    {
+      "index": 69,
+      "scorable": 196,
+      "numerator": 2941,
+      "score": 0.5001700680272109,
+      "flagged": 0
+    },
+    {
+      "index": 70,
+      "scorable": 196,
+      "numerator": 3030,
+      "score": 0.5153061224489796,
+      "flagged": 0
+    },
+    {
+      "index": 71,
+      "scorable": 196,
+      "numerator": 2916,
+      "score": 0.4959183673469388,
+      "flagged": 0
+    },
+    {
+      "index": 72,
+      "scorable": 196,
+      "numerator": 2912,
+      "score": 0.49523809523809526,
+      "flagged": 0
+    },
+    {
+      "index": 73,
+      "scorable": 196,
+      "numerator": 2940,
+      "score": 0.5,
+      "flagged": 0
+    },
+    {
+      "index": 74,
+      "scorable": 196,
+      "numerator": 2917,
+      "score": 0.49608843537414965,
+      "flagged": 0
+    },
+    {
+      "index": 75,
+      "scorable": 196,
+      "numerator": 2930,
+      "score": 0.49829931972789115,
+      "flagged": 0
+    },
+    {
+      "index": 76,
+      "scorable": 196,
+      "numerator": 2949,
+      "score": 0.5015306122448979,
+      "flagged": 0
+    },
+    {
+      "index": 77,
+      "scorable": 196,
+      "numerator": 2980,
+      "score": 0.5068027210884354,
+      "flagged": 0
+    },
+    {
+      "index": 78,
+      "scorable": 196,
+      "numerator": 2998,
+      "score": 0.5098639455782313,
+      "flagged": 0
+    },
+    {
+      "index": 79,
+      "scorable": 196,
+      "numerator": 2975,
+      "score": 0.5059523809523809,
+      "flagged": 0
+    },
+    {
+      "index": 80,
+      "scorable": 196,
+      "numerator": 2966,
+      "score": 0.504421768707483,
+      "flagged": 0
+    },
+    {
+      "index": 81,
+      "scorable": 196,
+      "numerator": 2963,
+      "score": 0.5039115646258503,
+      "flagged": 0
+    },
+    {
+      "index": 82,
+      "scorable": 196,
+      "numerator": 2864,
+      "score": 0.48707482993197276,
+      "flagged": 0
+    },
+    {
+      "index": 83,
+      "scorable": 196,
+      "numerator": 2915,
+      "score": 0.4957482993197279,
+      "flagged": 0
+    },
+    {
+      "index": 84,
+      "scorable": 196,
+      "numerator": 2903,
+      "score": 0.4937074829931973,
+      "flagged": 0
+    },
+    {
+      "index": 85,
+      "scorable": 196,
+      "numerator": 2938,
+      "score": 0.4996598639455782,
+      "flagged": 0
+    },
+    {
+      "index": 86,
+      "scorable": 196,
+      "numerator": 2933,
+      "score": 0.4988095238095238,
+      "flagged": 0
+    },
+    {
+      "index": 87,
+      "scorable": 196,
+      "numerator": 2972,
+      "score": 0.5054421768707483,
+      "flagged": 0
+    },
+    {
+      "index": 88,
+      "scorable": 196,
+      "numerator": 2888,
+      "score": 0.49115646258503404,
+      "flagged": 0
+    },
+    {
+      "index": 89,
+      "scorable": 196,
+      "numerator": 3021,
+      "score": 0.5137755102040816,
+      "flagged": 0
+    },
+    {
+      "index": 90,
+      "scorable": 196,
+      "numerator": 2893,
+      "score": 0.49200680272108843,
+      "flagged": 0
+    },
+    {
+      "index": 91,
+      "scorable": 196,
+      "numerator": 2908,
+      "score": 0.49455782312925173,
+      "flagged": 0
+    },
+    {
+      "index": 92,
+      "scorable": 196,
+      "numerator": 2899,
+      "score": 0.49302721088435375,
+      "flagged": 0
+    },
+    {
+      "index": 93,
+      "scorable": 196,
+      "numerator": 2898,
+      "score": 0.4928571428571429,
+      "flagged": 0
+    },
+    {
+      "index": 94,
+      "scorable": 196,
+      "numerator": 2893,
+      "score": 0.49200680272108843,
+      "flagged": 0
+    },
+    {
+      "index": 95,
+      "scorable": 196,
+      "numerator": 2977,
+      "score": 0.5062925170068027,
+      "flagged": 0
+    },
+    {
+      "index": 96,
+      "scorable": 196,
+      "numerator": 2955,
+      "score": 0.5025510204081632,
+      "flagged": 0
+    },
+    {
+      "index": 97,
+      "scorable": 196,
+      "numerator": 2900,
+      "score": 0.4931972789115646,
+      "flagged": 0
+    },
+    {
+      "index": 98,
+      "scorable": 196,
+      "numerator": 2979,
+      "score": 0.5066326530612245,
+      "flagged": 0
+    },
+    {
+      "index": 99,
+      "scorable": 196,
+      "numerator": 2911,
+      "score": 0.49506802721088433,
+      "flagged": 0
+    },
+    {
+      "index": 100,
+      "scorable": 196,
+      "numerator": 2878,
+      "score": 0.4894557823129252,
+      "flagged": 0
+    },
+    {
+      "index": 101,
+      "scorable": 196,
+      "numerator": 2943,
+      "score": 0.5005102040816326,
+      "flagged": 0
+    },
+    {
+      "index": 102,
+      "scorable": 196,
+      "numerator": 2958,
+      "score": 0.503061224489796,
+      "flagged": 0
+    },
+    {
+      "index": 103,
+      "scorable": 196,
+      "numerator": 2935,
+      "score": 0.4991496598639456,
+      "flagged": 0
+    },
+    {
+      "index": 104,
+      "scorable": 196,
+      "numerator": 2887,
+      "score": 0.4909863945578231,
+      "flagged": 0
+    },
+    {
+      "index": 105,
+      "scorable": 196,
+      "numerator": 2944,
+      "score": 0.5006802721088436,
+      "flagged": 0
+    },
+    {
+      "index": 106,
+      "scorable": 196,
+      "numerator": 3022,
+      "score": 0.5139455782312925,
+      "flagged": 0
+    },
+    {
+      "index": 107,
+      "scorable": 196,
+      "numerator": 2944,
+      "score": 0.5006802721088436,
+      "flagged": 0
+    },
+    {
+      "index": 108,
+      "scorable": 196,
+      "numerator": 2934,
+      "score": 0.4989795918367347,
+      "flagged": 0
+    },
+    {
+      "index": 109,
+      "scorable": 196,
+      "numerator": 2959,
+      "score": 0.5032312925170068,
+      "flagged": 0
+    },
+    {
+      "index": 110,
+      "scorable": 196,
+      "numerator": 2987,
+      "score": 0.5079931972789116,
+      "flagged": 0
+    },
+    {
+      "index": 111,
+      "scorable": 196,
+      "numerator": 2975,
+      "score": 0.5059523809523809,
+      "flagged": 0
+    },
+    {
+      "index": 112,
+      "scorable": 196,
+      "numerator": 2961,
+      "score": 0.5035714285714286,
+      "flagged": 0
+    },
+    {
+      "index": 113,
+      "scorable": 196,
+      "numerator": 2984,
+      "score": 0.507482993197279,
+      "flagged": 0
+    },
+    {
+      "index": 114,
+      "scorable": 196,
+      "numerator": 2959,
+      "score": 0.5032312925170068,
+      "flagged": 0
+    },
+    {
+      "index": 115,
+      "scorable": 196,
+      "numerator": 2952,
+      "score": 0.5020408163265306,
+      "flagged": 0
+    },
+    {
+      "index": 116,
+      "scorable": 196,
+      "numerator": 2951,
+      "score": 0.5018707482993198,
+      "flagged": 0
+    },
+    {
+      "index": 117,
+      "scorable": 196,
+      "numerator": 2983,
+      "score": 0.507312925170068,
+      "flagged": 0
+    },
+    {
+      "index": 118,
+      "scorable": 196,
+      "numerator": 2911,
+      "score": 0.49506802721088433,
+      "flagged": 0
+    },
+    {
+      "index": 119,
+      "scorable": 196,
+      "numerator": 2934,
+      "score": 0.4989795918367347,
+      "flagged": 0
+    },
+    {
+      "index": 120,
+      "scorable": 196,
+      "numerator": 2953,
+      "score": 0.5022108843537415,
+      "flagged": 0
+    },
+    {
+      "index": 121,
+      "scorable": 196,
+      "numerator": 2961,
+      "score": 0.5035714285714286,
+      "flagged": 0
+    },
+    {
+      "index": 122,
+      "scorable": 196,
+      "numerator": 2863,
+      "score": 0.4869047619047619,
+      "flagged": 0
+    },
+    {
+      "index": 123,
+      "scorable": 196,
+      "numerator": 2991,
+      "score": 0.5086734693877552,
+      "flagged": 0
+    },
+    {
+      "index": 124,
+      "scorable": 196,
+      "numerator": 3004,
+      "score": 0.5108843537414965,
+      "flagged": 0
+    },
+    {
+      "index": 125,
+      "scorable": 196,
+      "numerator": 2955,
+      "score": 0.5025510204081632,
+      "flagged": 0
+    },
+    {
+      "index": 126,
+      "scorable": 196,
+      "numerator": 2920,
+      "score": 0.4965986394557823,
+      "flagged": 0
+    },
+    {
+      "index": 127,
+      "scorable": 196,
+      "numerator": 2900,
+      "score": 0.4931972789115646,
+      "flagged": 0
+    },
+    {
+      "index": 128,
+      "scorable": 196,
+      "numerator": 2910,
+      "score": 0.49489795918367346,
+      "flagged": 0
+    },
+    {
+      "index": 129,
+      "scorable": 196,
+      "numerator": 2998,
+      "score": 0.5098639455782313,
+      "flagged": 0
+    },
+    {
+      "index": 130,
+      "scorable": 196,
+      "numerator": 2960,
+      "score": 0.5034013605442177,
+      "flagged": 0
+    },
+    {
+      "index": 131,
+      "scorable": 196,
+      "numerator": 2985,
+      "score": 0.5076530612244898,
+      "flagged": 0
+    },
+    {
+      "index": 132,
+      "scorable": 196,
+      "numerator": 2927,
+      "score": 0.4977891156462585,
+      "flagged": 0
+    },
+    {
+      "index": 133,
+      "scorable": 196,
+      "numerator": 2991,
+      "score": 0.5086734693877552,
+      "flagged": 0
+    },
+    {
+      "index": 134,
+      "scorable": 196,
+      "numerator": 2966,
+      "score": 0.504421768707483,
+      "flagged": 0
+    },
+    {
+      "index": 135,
+      "scorable": 196,
+      "numerator": 2948,
+      "score": 0.501360544217687,
+      "flagged": 0
+    },
+    {
+      "index": 136,
+      "scorable": 196,
+      "numerator": 2977,
+      "score": 0.5062925170068027,
+      "flagged": 0
+    },
+    {
+      "index": 137,
+      "scorable": 196,
+      "numerator": 2845,
+      "score": 0.483843537414966,
+      "flagged": 0
+    },
+    {
+      "index": 138,
+      "scorable": 196,
+      "numerator": 2935,
+      "score": 0.4991496598639456,
+      "flagged": 0
+    },
+    {
+      "index": 139,
+      "scorable": 196,
+      "numerator": 2954,
+      "score": 0.5023809523809524,
+      "flagged": 0
+    },
+    {
+      "index": 140,
+      "scorable": 196,
+      "numerator": 2892,
+      "score": 0.49183673469387756,
+      "flagged": 0
+    },
+    {
+      "index": 141,
+      "scorable": 196,
+      "numerator": 2953,
+      "score": 0.5022108843537415,
+      "flagged": 0
+    },
+    {
+      "index": 142,
+      "scorable": 196,
+      "numerator": 2916,
+      "score": 0.4959183673469388,
+      "flagged": 0
+    },
+    {
+      "index": 143,
+      "scorable": 196,
+      "numerator": 2954,
+      "score": 0.5023809523809524,
+      "flagged": 0
+    },
+    {
+      "index": 144,
+      "scorable": 196,
+      "numerator": 2932,
+      "score": 0.49863945578231295,
+      "flagged": 0
+    },
+    {
+      "index": 145,
+      "scorable": 196,
+      "numerator": 2979,
+      "score": 0.5066326530612245,
+      "flagged": 0
+    },
+    {
+      "index": 146,
+      "scorable": 196,
+      "numerator": 2933,
+      "score": 0.4988095238095238,
+      "flagged": 0
+    },
+    {
+      "index": 147,
+      "scorable": 196,
+      "numerator": 2960,
+      "score": 0.5034013605442177,
+      "flagged": 0
+    },
+    {
+      "index": 148,
+      "scorable": 196,
+      "numerator": 2858,
+      "score": 0.4860544217687075,
+      "flagged": 0
+    },
+    {
+      "index": 149,
+      "scorable": 196,
+      "numerator": 2914,
+      "score": 0.495578231292517,
+      "flagged": 0
+    },
+    {
+      "index": 150,
+      "scorable": 196,
+      "numerator": 2916,
+      "score": 0.4959183673469388,
+      "flagged": 0
+    },
+    {
+      "index": 151,
+      "scorable": 196,
+      "numerator": 2960,
+      "score": 0.5034013605442177,
+      "flagged": 0
+    },
+    {
+      "index": 152,
+      "scorable": 196,
+      "numerator": 2958,
+      "score": 0.503061224489796,
+      "flagged": 0
+    },
+    {
+      "index": 153,
+      "scorable": 196,
+      "numerator": 2916,
+      "score": 0.4959183673469388,
+      "flagged": 0
+    },
+    {
+      "index": 154,
+      "scorable": 196,
+      "numerator": 2893,
+      "score": 0.49200680272108843,
+      "flagged": 0
+    },
+    {
+      "index": 155,
+      "scorable": 196,
+      "numerator": 2913,
+      "score": 0.4954081632653061,
+      "flagged": 0
+    },
+    {
+      "index": 156,
+      "scorable": 196,
+      "numerator": 2942,
+      "score": 0.5003401360544217,
+      "flagged": 0
+    },
+    {
+      "index": 157,
+      "scorable": 196,
+      "numerator": 2921,
+      "score": 0.4967687074829932,
+      "flagged": 0
+    },
+    {
+      "index": 158,
+      "scorable": 196,
+      "numerator": 2947,
+      "score": 0.5011904761904762,
+      "flagged": 0
+    },
+    {
+      "index": 159,
+      "scorable": 196,
+      "numerator": 2955,
+      "score": 0.5025510204081632,
+      "flagged": 0
+    },
+    {
+      "index": 160,
+      "scorable": 196,
+      "numerator": 2881,
+      "score": 0.48996598639455785,
+      "flagged": 0
+    },
+    {
+      "index": 161,
+      "scorable": 196,
+      "numerator": 2898,
+      "score": 0.4928571428571429,
+      "flagged": 0
+    },
+    {
+      "index": 162,
+      "scorable": 196,
+      "numerator": 2953,
+      "score": 0.5022108843537415,
+      "flagged": 0
+    },
+    {
+      "index": 163,
+      "scorable": 196,
+      "numerator": 2919,
+      "score": 0.49642857142857144,
+      "flagged": 0
+    },
+    {
+      "index": 164,
+      "scorable": 196,
+      "numerator": 2956,
+      "score": 0.5027210884353741,
+      "flagged": 0
+    },
+    {
+      "index": 165,
+      "scorable": 196,
+      "numerator": 2961,
+      "score": 0.5035714285714286,
+      "flagged": 0
+    },
+    {
+      "index": 166,
+      "scorable": 196,
+      "numerator": 2984,
+      "score": 0.507482993197279,
+      "flagged": 0
+    },
+    {
+      "index": 167,
+      "scorable": 196,
+      "numerator": 2956,
+      "score": 0.5027210884353741,
+      "flagged": 0
+    },
+    {
+      "index": 168,
+      "scorable": 196,
+      "numerator": 2979,
+      "score": 0.5066326530612245,
+      "flagged": 0
+    },
+    {
+      "index": 169,
+      "scorable": 196,
+      "numerator": 2999,
+      "score": 0.5100340136054422,
+      "flagged": 0
+    },
+    {
+      "index": 170,
+      "scorable": 196,
+      "numerator": 2926,
+      "score": 0.4976190476190476,
+      "flagged": 0
+    },
+    {
+      "index": 171,
+      "scorable": 196,
+      "numerator": 2959,
+      "score": 0.5032312925170068,
+      "flagged": 0
+    },
+    {
+      "index": 172,
+      "scorable": 196,
+      "numerator": 2909,
+      "score": 0.4947278911564626,
+      "flagged": 0
+    },
+    {
+      "index": 173,
+      "scorable": 196,
+      "numerator": 2919,
+      "score": 0.49642857142857144,
+      "flagged": 0
+    },
+    {
+      "index": 174,
+      "scorable": 196,
+      "numerator": 2921,
+      "score": 0.4967687074829932,
+      "flagged": 0
+    },
+    {
+      "index": 175,
+      "scorable": 196,
+      "numerator": 2932,
+      "score": 0.49863945578231295,
+      "flagged": 0
+    },
+    {
+      "index": 176,
+      "scorable": 196,
+      "numerator": 2972,
+      "score": 0.5054421768707483,
+      "flagged": 0
+    },
+    {
+      "index": 177,
+      "scorable": 196,
+      "numerator": 2957,
+      "score": 0.5028911564625851,
+      "flagged": 0
+    },
+    {
+      "index": 178,
+      "scorable": 196,
+      "numerator": 2970,
+      "score": 0.5051020408163265,
+      "flagged": 0
+    },
+    {
+      "index": 179,
+      "scorable": 196,
+      "numerator": 2978,
+      "score": 0.5064625850340136,
+      "flagged": 0
+    },
+    {
+      "index": 180,
+      "scorable": 196,
+      "numerator": 2901,
+      "score": 0.4933673469387755,
+      "flagged": 0
+    },
+    {
+      "index": 181,
+      "scorable": 196,
+      "numerator": 3033,
+      "score": 0.5158163265306123,
+      "flagged": 1
+    },
+    {
+      "index": 182,
+      "scorable": 196,
+      "numerator": 2939,
+      "score": 0.49982993197278913,
+      "flagged": 0
+    },
+    {
+      "index": 183,
+      "scorable": 196,
+      "numerator": 2992,
+      "score": 0.508843537414966,
+      "flagged": 0
+    },
+    {
+      "index": 184,
+      "scorable": 196,
+      "numerator": 2900,
+      "score": 0.4931972789115646,
+      "flagged": 0
+    },
+    {
+      "index": 185,
+      "scorable": 196,
+      "numerator": 2932,
+      "score": 0.49863945578231295,
+      "flagged": 0
+    },
+    {
+      "index": 186,
+      "scorable": 196,
+      "numerator": 2969,
+      "score": 0.5049319727891156,
+      "flagged": 0
+    },
+    {
+      "index": 187,
+      "scorable": 196,
+      "numerator": 2928,
+      "score": 0.49795918367346936,
+      "flagged": 0
+    },
+    {
+      "index": 188,
+      "scorable": 196,
+      "numerator": 2885,
+      "score": 0.4906462585034014,
+      "flagged": 0
+    },
+    {
+      "index": 189,
+      "scorable": 196,
+      "numerator": 2906,
+      "score": 0.49421768707482994,
+      "flagged": 0
+    },
+    {
+      "index": 190,
+      "scorable": 196,
+      "numerator": 2947,
+      "score": 0.5011904761904762,
+      "flagged": 0
+    },
+    {
+      "index": 191,
+      "scorable": 196,
+      "numerator": 2959,
+      "score": 0.5032312925170068,
+      "flagged": 0
+    },
+    {
+      "index": 192,
+      "scorable": 196,
+      "numerator": 2942,
+      "score": 0.5003401360544217,
+      "flagged": 0
+    },
+    {
+      "index": 193,
+      "scorable": 196,
+      "numerator": 2948,
+      "score": 0.501360544217687,
+      "flagged": 0
+    },
+    {
+      "index": 194,
+      "scorable": 196,
+      "numerator": 2982,
+      "score": 0.5071428571428571,
+      "flagged": 0
+    },
+    {
+      "index": 195,
+      "scorable": 196,
+      "numerator": 2888,
+      "score": 0.49115646258503404,
+      "flagged": 0
+    },
+    {
+      "index": 196,
+      "scorable": 196,
+      "numerator": 2910,
+      "score": 0.49489795918367346,
+      "flagged": 0
+    },
+    {
+      "index": 197,
+      "scorable": 196,
+      "numerator": 2970,
+      "score": 0.5051020408163265,
+      "flagged": 0
+    },
+    {
+      "index": 198,
+      "scorable": 196,
+      "numerator": 2961,
+      "score": 0.5035714285714286,
+      "flagged": 0
+    },
+    {
+      "index": 199,
+      "scorable": 196,
+      "numerator": 2900,
+      "score": 0.4931972789115646,
+      "flagged": 0
+    }
+  ],
+  "flagged": 3
+}

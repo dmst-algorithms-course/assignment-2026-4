@@ -1,0 +1,137 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aueb.gr/rwa/synthid/output.schema.json",
+  "title": "SynthID assignment program output",
+  "description": "The program prints one JSON object on stdout. Which shape it takes depends on the mode it was run in: --generate produces a document, --detect produces a calibrated verdict for every document it was given.",
+  "oneOf": [
+    { "$ref": "#/$defs/generateOutput" },
+    { "$ref": "#/$defs/detectOutput" }
+  ],
+
+  "$defs": {
+    "generateOutput": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["mode", "seed", "watermarked", "layers", "window", "sampler", "tokens"],
+      "properties": {
+        "mode": { "const": "generate" },
+        "seed": {
+          "description": "The --seed the run was given. The same seed and the same settings must always produce the same tokens.",
+          "type": "integer"
+        },
+        "watermarked": {
+          "description": "False when --no-watermark was given: the token is then drawn straight from the model.",
+          "type": "boolean"
+        },
+        "entropy": { "enum": ["high", "low"] },
+        "sampler": { "enum": ["layered", "knockout"] },
+        "layers": { "type": "integer", "minimum": 1 },
+        "window": { "type": "integer", "minimum": 1 },
+        "tokens": {
+          "description": "The generated document, in order. Exactly --length of them.",
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "pattern": "^w[0-9]{3}$" }
+        }
+      }
+    },
+
+    "detectOutput": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "mode",
+        "alpha",
+        "layers",
+        "window",
+        "calibration",
+        "documents",
+        "flagged"
+      ],
+      "properties": {
+        "mode": { "const": "detect" },
+        "alpha": {
+          "description": "The false-positive rate the threshold was calibrated for.",
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "maximum": 1
+        },
+        "layers": { "type": "integer", "minimum": 1 },
+        "window": { "type": "integer", "minimum": 1 },
+        "bloom": {
+          "description": "Present only when --bloom-bits was given: the detector then used a Bloom filter in place of the exact seen-set.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["bits", "hashes"],
+          "properties": {
+            "bits": { "type": "integer", "minimum": 8 },
+            "hashes": { "type": "integer", "minimum": 1 }
+          }
+        },
+        "calibration": {
+          "description": "What the unwatermarked calibration corpus produced.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["documents", "threshold"],
+          "properties": {
+            "documents": { "type": "integer", "minimum": 1 },
+            "threshold": {
+              "description": "The smallest numerator k whose tail is within alpha. A document is flagged when its numerator is at least this.",
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        },
+        "documents": {
+          "description": "One entry per document in --documents, in file order.",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "index",
+              "scorable",
+              "numerator",
+              "score",
+              "flagged"
+            ],
+            "properties": {
+              "index": { "type": "integer", "minimum": 0 },
+              "scorable": {
+                "description": "How many positions were scored: past the first h, context not seen before.",
+                "type": "integer",
+                "minimum": 0
+              },
+              "numerator": {
+                "description": "The integer k: g-values summed over scored positions and layers.",
+                "type": "integer",
+                "minimum": 0
+              },
+              "score": {
+                "description": "k / (layers * scorable), or 0 when nothing was scorable.",
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "flagged": {
+                "description": "1 when the numerator reaches the threshold.",
+                "type": "integer",
+                "enum": [0, 1]
+              },
+              "false_skips": {
+                "description": "Present only under --bloom-bits: positions the exact set would have scored and the filter skipped.",
+                "type": "integer",
+                "minimum": 0
+              }
+            }
+          }
+        },
+        "flagged": {
+          "description": "How many of the documents the detector flagged: the count whose numerator reached the threshold. Turning that count into a rate needs something the detector does not know, namely whether the documents really are watermarked. On input that is all unwatermarked it is the false-positive rate; on input that is all watermarked, the true-positive rate; on mixed input such as mystery.txt it is neither, just a tally of verdicts.",
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    }
+  }
+}
