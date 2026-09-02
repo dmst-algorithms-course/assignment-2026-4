@@ -1,0 +1,11 @@
+# Python leaves these beside the modules it imports.
+__pycache__/
+*.pyc
+
+# test_public.py writes a small corpus of its own next to itself.
+_public_test_corpus/
+
+# Editor backups.
+*~
+*.swp
+.DS_Store
